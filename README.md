@@ -24,6 +24,17 @@ stof_doctrine_extensions:
 ```
 * Name the Bundle like this : Lk\EntManipsBundle
 
+
+1°) make sure You have clean you're database (PHPMYADMIN or similar) :
+* SET FOREIGN_KEY_CHECKS=0; DROP TABLE `ExtendedType`, `Plop`, `plop_tagada`, `Tagada`, `Type`; SET FOREIGN_KEY_CHECKS=1;
+2°) call the generation of database (sf2 console) :
+* php app/console doctrine:schema:update --force
+3°) check if the tables are correctly generated
+* go to PHPMYADMIN ...
+4°)  populate tables with the fixtures :
+* php app/console doctrine:fixtures:load
+* say 'Y' to clean db before inserts
+5°) go to PHPMYADMIN ... and see what a clean database and datas you have now ;-)
 ======
 UML Model of this Concept :
 
