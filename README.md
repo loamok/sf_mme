@@ -41,12 +41,12 @@ stof_doctrine_extensions:
 5°) go to PHPMYADMIN ... 
 * and see what a clean database and datas you have now ;-)
 
-======
 UML Model of this Concept :
+======
 
 ![UML Entities diagram](https://raw.githubusercontent.com/loamok/sf_mme/master/Doc/MultipleMappingEntities.png)
 
-======
 Database Model of this Concept :
+======
 
 ![Resulting DB Model](https://raw.githubusercontent.com/loamok/sf_mme/master/Doc/MultipleMappingEntitiesDBModel.png)
