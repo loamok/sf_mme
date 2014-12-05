@@ -40,6 +40,7 @@ stof_doctrine_extensions:
 
 5°) go to PHPMYADMIN ... 
 * and see what a clean database and datas you have now ;-)
+
 ======
 UML Model of this Concept :
 
